@@ -1,21 +1,16 @@
-﻿using System;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Threading;
-using Microsoft.Win32.SafeHandles;
-
-namespace Helpers
+namespace Dataflow.BenchPerformance
 {
+    using System;
+    using System.ComponentModel;
+    using System.Diagnostics;
+    using System.Linq;
+    using System.Runtime.InteropServices;
+    using System.Threading;
+    using Microsoft.Win32.SafeHandles;
+
+
     public sealed class BenchPerformance : IDisposable
     {
-       
-
-        #region Delegates
-
-
-        #endregion
 
         private static Int64[] m_arr;
         private static Int32 m_iterations;
